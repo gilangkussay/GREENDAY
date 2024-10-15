@@ -1,0 +1,135 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+body {
+  background-color: #111;
+  color: #fff;
+}
+
+/* Navbar Styles */
+nav {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Sama seperti di kode yang diberikan */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: nimrod;
+  color: white; /* Agar logo tetap putih */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+nav ul li a:hover {
+  color: #e60580; /* Warna hover yang sama */
+}
+
+/* Hero Section for Band Photo */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.band-photo {
+  width: 70%;
+  max-width: 600px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+/* About Content */
+.about-content {
+  text-align: center;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.about-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #e60580;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+/* Timeline Section */
+.history {
+  padding: 50px 0;
+  background-color: #111;
+  color: white;
+}
+
+.history h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #e60580;
+  margin-bottom: 30px;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.event {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-left: 5px solid #e60580;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.event h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.event p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  color: #e60580;
+}

@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-position: center;
+  color: white;
+}
+
+/* Navbar Styles */
+nav {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Sama seperti di kode yang diberikan */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: nimrod;
+  color: white; /* Agar logo tetap putih */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+nav ul li a:hover {
+  color: #e60580; /* Warna hover yang sama */
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 600px;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.hero .btn-primary {
+  background-color: #e60580;
+}
+
+.hero .btn-primary:hover {
+  background-color: #e60580;
+}
